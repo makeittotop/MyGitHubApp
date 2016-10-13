@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">My Gists</string>
+    <string name="action_settings">Settings</string>
+    <string name="username">makeittotop</string>
+    <string name="access_token">6e96d82d03a009dfb55f7772be135c79691230c5</string>
+    <string name="title_activity_gist">Edit this Gist</string>
+    <string name="action_update">Update Gist</string>
+    <string name="action_delete">Delete Gist</string>
+    <string name="action_create">Create Gist</string>
+    <string name="action_refresh">Refresh Gists</string>
+    <string name="action_search">Search Gists</string>
+    <string name="title_activity_create_gist">Create Gist</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Username/Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This username/email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_incorrect_mfa">This MFA code is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="API_BASE">https://api.github.com/authorizations</string>
+    <string name="title_activity_mfa">MFA</string>
+    <string name="prompt_mfa">Enter MFA Code</string>
+    <string name="action_login">Sign In</string>
+
+    <string name="note">Access Token Created by Abhishek Pareek #</string>
+    <string name="token_str">token</string>
+    <string name="action_logout">Sign out</string>
+    <string name="user_str">user</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="search_hint">Search gist titles or descriptions or data ...</string>
+    <string name="github_register_url">"<a href='https://www.github.com/join'>Join Github</a>"</string>
+    <string name="github_register_url_2">www.github.com/join</string>
+    <string name="github_account_creation_prompt">Don\'t have an account?</string>
+    <string name="github_mfa_prompt">What\'s this?</string>
+
+    <string-array name="drawer_items_array">
+        <item>Refresh</item>
+        <item>Settings</item>
+        <item>Sign Out</item>
+    </string-array>
+</resources>

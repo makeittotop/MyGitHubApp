@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".activity.MainActivity">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search_white_24dp"
+        android:title="@string/action_search"
+        app:showAsAction="collapseActionView|ifRoom"
+        app:actionViewClass="android.support.v7.widget.SearchView"/>
+
+    <!--
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/ic_refresh_white_24dp"
+        android:title="@string/action_refresh"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_create"
+        android:icon="@drawable/ic_note_add_white_24dp"
+        android:title="@string/action_create"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+    -->
+
+      <item
+        android:id="@+id/action_logout"
+        android:title="@string/action_logout"
+        android:icon="@drawable/ic_exit_to_app_white_24dp"
+        app:showAsAction="never"/>
+
+</menu>
